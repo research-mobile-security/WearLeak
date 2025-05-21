@@ -8,9 +8,9 @@ The **WearLeak** system is used to investigate whether Wearable apps (WearOS) se
 Threat model illustrated as figure below
 <img src="https://github.com/research-mobile-security/WearLeak/blob/main/project-image/wearable-ecosystem-new.png">
 
-## 32. System architecture
+## 2. System architecture
 
-**WearLeak** combines hybrid analysis based on MetaLeak framework with LLMs (GraphRAG and Few-shot learning) to (1) identify third-party services that the app integrates with and (2) summarize the app's sent-out traffic, thereby identifying privacy non-compliance when compared to the data safety declared by the app developer.
+**WearLeak** combines hybrid analysis based on **[MetaLeak's](https://github.com/research-mobile-security/MetaLeak)** framework with LLMs (GraphRAG and Few-shot learning) to (1) identify third-party services that the app integrates with and (2) summarize the app's sent-out traffic, thereby identifying privacy non-compliance when compared to the data safety declared by the app developer.
 
 **WearLeak** consists of four stage, as illustrated in the Figure below, including:
 
