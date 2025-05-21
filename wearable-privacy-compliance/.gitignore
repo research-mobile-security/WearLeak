@@ -1,0 +1,11 @@
+.env
+*.json
+*.log
+*.faiss
+*.pkl
+*.txt
+*.zip
+!requirements.txt
+!command.txt
+# Exclude .txt files in the output directory
+!output/*.txt

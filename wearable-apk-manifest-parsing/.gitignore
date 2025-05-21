@@ -1,0 +1,11 @@
+.env
+*.apk
+*.xml
+*.log
+# Ignore all JSON files
+*.json
+# But do not ignore wearable-project.wearable-app.json
+#!wearable-project.wearable-app.json
+*.exe
+*.txt
+

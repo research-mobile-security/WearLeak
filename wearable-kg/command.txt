@@ -1,0 +1,14 @@
+pipreqs /root/wearable-kg 
+pipreqs /root/wearable-kg --force
+
+
+# Check NEO4J
+- Request
+CALL db.index.fulltext.queryNodes('entityIndex', 'Xyz.Klinker.Messenger~2') YIELD node, score
+RETURN node, score LIMIT 10
+- Response
+╒════════════════════════════════════╤══════════════════╕
+│node                                │score             │
+╞════════════════════════════════════╪══════════════════╡
+│(:App {id: "Xyz.Klinker.Messenger"})│0.5472603440284729│
+└────────────────────────────────────┴──────────────────┘

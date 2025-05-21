@@ -1,0 +1,12 @@
+.env
+*.apk
+*.xml
+*.json
+*.exe
+*.log
+*.tx
+*.faiss
+*.pkl
+*.zip
+!requirements.txt
+!command.txt
