@@ -5,8 +5,18 @@
 ## 1. Citation
 
 If you use WearLeak results, please cite the following information. Thank you.
-### Paper Link [MetaLeak on IEEE Xplore]()
+### Paper Link [MetaLeak on IEEE Xplore](https://ieeexplore.ieee.org/document/11257567)
 ```bibtex
+@INPROCEEDINGS{11257567,
+  author={Nguyen, Tran Thanh Lam and Carminati, Barbara and Ferrari, Elena},
+  booktitle={2025 21th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)}, 
+  title={Detecting Privacy Non-Compliance in Wearable Apps via Knowledge Graphs and LLMs}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Wireless communication;Privacy;Large language models;Knowledge graphs;Telecommunication traffic;Safety;Security;Biomedical monitoring;Wearable devices;Standards;Wearable apps;Privacy;Large Language Models (LLM);GraphRAG},
+  doi={10.1109/WiMob66857.2025.11257567}}
 
 ```
 
